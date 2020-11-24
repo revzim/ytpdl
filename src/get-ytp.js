@@ -23,7 +23,6 @@ init_logger();
 
 
 const get_playlist_info = (body, playlist_id) => {
-  // logger.debug(removeHtml(body));
   const indicators = {
     starter: 'window["ytInitialData"]',
     ender: 'window["ytInitialPlayerResponse"] = null;',
