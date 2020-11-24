@@ -1,0 +1,19 @@
+{
+  "name": "ytpdl",
+  "version": "0.0.1",
+  "description": "cache your youtube audio/video playlists (audio/video/both) for offline enjoyment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/main.test.js"
+  },
+  "repository": "https://github.com/revzim/ytpdl",
+  "author": "revzim",
+  "license": "MIT",
+  "bin": "cli.js",
+  "dependencies": {
+    "log4js": "^6.3.0",
+    "miniget": "^4.0.0",
+    "yargs": "^16.1.1",
+    "ytdl-core": "^4.0.6"
+  }
+}
